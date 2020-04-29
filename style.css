@@ -1,90 +1,110 @@
-body {
-  font-family: 'Open Sans', sans-serif;
+.container {
+  width: 1000px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0 auto 0 auto;
 }
-
-main {
-  width: 600px;
-  margin: 0 auto;
-}
-
-.newsletter-form {
-  color: #666666;
-  border: 1px solid #cccccc;
-  padding: 10px;
-  border-radius: 3px;
+header {
+  margin-top: -20px;
+  width: 1000px;
+  height: 400px;
+  background: top/contain no-repeat url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
   position: relative;
 }
 
-input[type="text"] {
-  width: 100%;
-  box-sizing: border-box;
-  height: 30px;
-  margin: 0 0 5px;
+main {
+  width: 800px;
+  margin: -50px auto 0 auto;
+/*   background: #ccc; */
 }
-
-input[type="submit"] {
-  width: 100%;
-  box-sizing: border-box;
-  background: #3cb878;
-  border: 0;
-  color: white;
-  height: 30px;
-  margin: 0 0 10px;
-  cursor: pointer;
+p {
+  margin-left: 50px; 
 }
-
-.newsletter-form h2 {
-  margin-top: 0;
-}
-
-a {
-  color: #3CB878;
-}
-
-.exit-button {
+h1 {
+  font-size: 60px;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 0px;
+  margin-left: 0px;
   position: absolute;
-  top: 3px;
-  right: 10px;
-  cursor: pointer;
+  top: 200px;
+  left: 150px;
+  padding: 0px;
+  z-index: 2;
+}
+h2 {
+  font-family: 'Merriweather', serif;
+  margin-top: 20px;
+  margin-left: 50px; 
 }
 
-.question-button {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  color: white;
-  font-size: 70px;
-  text-align: center;
-  border-radius: 50%;
-  background: #3cb878;
-  z-index: 10;
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 2px 2px 10px #666666;
+h3 {
+   font-family: 'Josefin Sans', sans-serif;
+   line-height: 1;
+   margin-left: 50px; 
+}
+h3.title {
+  font-size: 26px;
+  font-family: 'Abril Fatface', cursive;
+  margin: 0px;
+  position: absolute;
+  top: 195px;
+  left: 150px;
+/*   margin-top: 500px; */
+}
+h3.headline {
+  margin-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h3.subtitle {
+  font-family: 'Merriweather', serif;
+  margin-top: -15px;
+  font-size: 11px;
+  line-height: 1;
 }
 
-.key-features {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-start;
+.capital {
+/*   text-decoration: underline; */
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  margin-left: 50px;
+  padding: 30px 0 30px 0;
 }
 
-.feature {
-  background: #3cb878;
-  padding: 30px;
-  margin: 10px 0;
-  width: 120px;
-  box-shadow: 2px 2px 10px #666666;
+ul {
+  margin-left: 50px; 
+  margin-bottom: 100px;
 }
 
-.feature p {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 0;
-  text-align: center;
+
+
+blockquote {
+font-family: 'Abril Fatface', cursive;
+font-size: 40px;
+line-height: 1.65em;
+font-weight: 300;
+margin: 50px auto 0px auto;
+padding: 10px 30px 10px 30px;
+color: #fff;
+background: #444;
+position: relative;
+width: 100%;
+}
+blockquote::before {
+  content: '“';
+  font-size: 150px;
+  position: absolute;
+/*   transform: rotate(180deg);
+  left: 10px;
+  top: -30px; */
+  left: 5px;
+  top: 32px;
+}
+blockquote p {
+  margin-left: 50px;
+}
+.bold {
+/*   text-decoration: underline; */
+  font-weight: 900;
 }
